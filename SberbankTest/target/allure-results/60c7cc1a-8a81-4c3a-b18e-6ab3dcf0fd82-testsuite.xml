@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1503970937753" stop="1503971011587" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ru.sberbank.SberbankTest : Command line test</name>
+    <title>ru.sberbank.SberbankTest : Command line test</title>
+    <test-cases>
+        <test-case start="1503970944217" stop="1503970956903" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToMoscow</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToMoscow"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970944217" stop="1503970956903" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToMoscow</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToMoscow"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970956908" stop="1503970968600" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970956908" stop="1503970968600" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970968604" stop="1503970975895" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToFacebook</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToFacebook"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970968604" stop="1503970975895" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToFacebook</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToFacebook"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970975899" stop="1503970981766" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToInstagram</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToInstagram"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970975899" stop="1503970981766" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToInstagram</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToInstagram"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970981771" stop="1503970989269" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToOK</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToOK"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970981771" stop="1503970989269" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToOK</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToOK"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970989272" stop="1503970995673" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToTwitter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToTwitter"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970989272" stop="1503970995673" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToTwitter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToTwitter"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970995677" stop="1503971002549" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToVK</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToVK"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503970995677" stop="1503971002549" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToVK</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToVK"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503971002552" stop="1503971010088" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToYouTube</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToYouTube"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1503971002552" stop="1503971010088" status="passed">
+            <name>gotoSocialGroupsInFooterCheckLinkToYouTube</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="ru.sberbank.SberbankTest"/>
+                <label name="testGroup" value="Command line test"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckLinkToYouTube"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="8208@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
