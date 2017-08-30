@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1504068126933" stop="1504068162298" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>SberbankSimpleTestSuite : MainPageTest</name>
+    <title>SberbankSimpleTestSuite : MainPageTest</title>
+    <test-cases>
+        <test-case start="1504068133359" stop="1504068145065" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToMoscow</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SberbankSimpleTestSuite"/>
+                <label name="testGroup" value="MainPageTest"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToMoscow"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="7668@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1504068145070" stop="1504068157881" status="passed">
+            <name>gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SberbankSimpleTestSuite"/>
+                <label name="testGroup" value="MainPageTest"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="7668@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1504068157885" stop="1504068161841" status="passed">
+            <name>gotoSocialGroupsInFooterCheckSocialLinks</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="SberbankSimpleTestSuite"/>
+                <label name="testGroup" value="MainPageTest"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckSocialLinks"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="7668@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.sberbank.SberbankTest" time="65.854" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="ru.sberbank.SberbankTest" time="30.216" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Denis\Desktop\SberbankTest\SberbankTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Denis\Desktop\SberTrainTest\SberbankTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Denis\Desktop\SberbankTest\SberbankTest"/>
+    <property name="user.dir" value="C:\Users\Denis\Desktop\SberTrainTest\SberbankTest"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
@@ -61,12 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="gotoSberbankPageAndChangeLocationToMoscow" classname="ru.sberbank.SberbankTest" time="12.69"/>
-  <testcase name="gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion" classname="ru.sberbank.SberbankTest" time="11.693"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToFacebook" classname="ru.sberbank.SberbankTest" time="7.29"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToInstagram" classname="ru.sberbank.SberbankTest" time="5.869"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToOK" classname="ru.sberbank.SberbankTest" time="7.5"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToTwitter" classname="ru.sberbank.SberbankTest" time="6.402"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToVK" classname="ru.sberbank.SberbankTest" time="6.872"/>
-  <testcase name="gotoSocialGroupsInFooterCheckLinkToYouTube" classname="ru.sberbank.SberbankTest" time="7.538"/>
+  <testcase name="gotoSberbankPageAndChangeLocationToMoscow" classname="ru.sberbank.SberbankTest" time="12.146"/>
+  <testcase name="gotoSberbankPageAndChangeLocationToNizhniyNovgorodRegion" classname="ru.sberbank.SberbankTest" time="13.302"/>
+  <testcase name="gotoSocialGroupsInFooterCheckSocialLinks" classname="ru.sberbank.SberbankTest" time="4.768"/>
 </testsuite>

@@ -1,0 +1,7 @@
+<suite name="SberbankSimpleTestSuite" verbose="1" >
+    <test name="MainPageTest" >
+        <classes>
+            <class name="ru.sberbank.SberbankTest" />
+        </classes>
+    </test>
+</suite>
