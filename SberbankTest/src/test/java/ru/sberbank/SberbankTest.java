@@ -8,8 +8,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -49,24 +54,26 @@ public class SberbankTest {
         }
     }
 
+    @Parameters({ "PathToSocialLinksFile" })
     @Test
-    public void gotoSocialGroupsInFooterCheckSocialLinks() {
+    public void gotoSocialGroupsInFooterCheckSocialLinks(String socialLinksFilePath) {
         driver.get("https://sberbank.ru/");
         WebElement element = driver.findElement(By.cssSelector(".social__list"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        String[] linksToSocialGroups = {
-                "http://vk.com/sberbank",
-                "https://www.facebook.com/bankdruzey",
-                "http://twitter.com/sberbank/",
-                "http://www.youtube.com/sberbank",
-                "http://instagram.com/sberbank",
-                "https://ok.ru/sberbank"};
 
-        for(int i = 0; i < linksToSocialGroups.length; i++) {
+        List<String> linksToSocialGroups = null;
+        try {
+            linksToSocialGroups = Files.readAllLines(Paths.get(socialLinksFilePath), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            e.printStackTrace();
+            Assert.fail("File with social links is absent");
+        }
+
+        for(int i = 0; i < linksToSocialGroups.size(); i++) {
             try {
-                driver.findElement(By.xpath(".//a[@href = \"" + linksToSocialGroups[i] + "\"]"));
+                driver.findElement(By.xpath(".//a[@href = \"" + linksToSocialGroups.get(i) + "\"]"));
             } catch (Exception e) {
-                Assert.fail("Link to " + linksToSocialGroups[i] + "is absent");
+                Assert.fail("Link to " + linksToSocialGroups.get(i) + "is absent");
             }
         }
         Assert.assertEquals(true,true);

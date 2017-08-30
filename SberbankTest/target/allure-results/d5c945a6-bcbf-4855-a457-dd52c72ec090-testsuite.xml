@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1504129016391" stop="1504129027946" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : SberbankTest</name>
+    <title>Default Suite : SberbankTest</title>
+    <test-cases>
+        <test-case start="1504129022220" stop="1504129027350" status="passed">
+            <name>gotoSocialGroupsInFooterCheckSocialLinks</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="SberbankTest"/>
+                <label name="testClass" value="ru.sberbank.SberbankTest"/>
+                <label name="testMethod" value="gotoSocialGroupsInFooterCheckSocialLinks"/>
+                <label name="host" value="Evil_pc"/>
+                <label name="thread" value="7788@Evil_pc.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

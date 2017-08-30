@@ -1,4 +1,5 @@
 <suite name="SberbankSimpleTestSuite" verbose="1" >
+    <parameter name="PathToSocialLinksFile" value="LinksToSocialGroups"/>
     <test name="MainPageTest" >
         <classes>
             <class name="ru.sberbank.SberbankTest" />
