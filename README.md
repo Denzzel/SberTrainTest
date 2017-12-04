@@ -1,7 +1,7 @@
-#SDM
-##Deployment Scripts
+# SDM
+## Deployment Scripts
 
-###Usage:
+### Usage:
 1)run deploy_sdm.bat
 a) you can specify target directory like: deploy_sdm.bat <target_directory>
 2)copy installer.bash to <target_directory>
