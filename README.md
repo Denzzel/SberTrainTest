@@ -3,7 +3,7 @@
 
 ### Usage:
 1) run command <code>sbt deployArchive</code>
-2) copy <code>deploy-smd-1.0.tar.gz</code> from  <code>\target\</code> to cluster node
+2) copy <code>deploy-smd-1.0.tar.gz</code> from  <code>target</code> to cluster node
 3) unpack <code>deploy-smd-1.0.tar.gz</code> with <code>tar xvfz deploy-smd-1.0.tar.gz</code>
 4) run <code>installer</code>
 
